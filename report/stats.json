@@ -1,0 +1,76 @@
+{
+  "date_range": {
+    "start": "2006-01-01",
+    "end": "2026-08-01"
+  },
+  "train_range": {
+    "start": "2006-01-01",
+    "end": "2022-02-01",
+    "n": 194
+  },
+  "post_range": {
+    "start": "2022-03-01",
+    "end": "2025-02-01",
+    "n": 36
+  },
+  "backtest": {
+    "rmse": 1.24,
+    "mae": 1.1
+  },
+  "results": {
+    "cpi_inflation": {
+      "avg_effect": -1.65,
+      "total_effect": -59.35,
+      "actual_last": 2.8,
+      "cf_last": 4.46,
+      "actual_first": 8.57,
+      "cf_first": 9.6
+    },
+    "output_indpro": {
+      "avg_effect": -2.04,
+      "total_effect": -73.57,
+      "actual_last": 0.81,
+      "cf_last": 1.42,
+      "actual_first": 3.05,
+      "cf_first": 7.59
+    },
+    "pce_inflation": {
+      "avg_effect": -1.35,
+      "total_effect": -48.53,
+      "actual_last": 2.71,
+      "cf_last": 4.05,
+      "actual_first": 6.93,
+      "cf_first": 7.74
+    },
+    "unemployment": {
+      "avg_effect": -0.5,
+      "total_effect": -17.97,
+      "actual_last": 4.2,
+      "cf_last": 5.25,
+      "actual_first": 3.7,
+      "cf_first": 3.27
+    },
+    "gdp_growth": {
+      "avg_effect": -0.06,
+      "total_effect": -2.25,
+      "actual_last": 2.02,
+      "cf_last": 2.57,
+      "actual_first": 4.03,
+      "cf_first": 4.95
+    }
+  },
+  "loo": {
+    "cpi_euro_yoy": {
+      "avg_effect": -1.7,
+      "total_effect": -61.31
+    },
+    "cpi_uk_yoy": {
+      "avg_effect": -1.36,
+      "total_effect": -48.82
+    },
+    "commodity_price_yoy": {
+      "avg_effect": -2.79,
+      "total_effect": -100.54
+    }
+  }
+}
